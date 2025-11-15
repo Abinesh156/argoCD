@@ -5,7 +5,7 @@ metadata:
     app: solar-system
   name: solar-system
 spec:
-  replicas: 50
+  replicas: 5
   selector:
     matchLabels:
       app: solar-system
@@ -21,4 +21,5 @@ spec:
         imagePullPolicy: Always
         ports: 
         - containerPort: 80
+
 
